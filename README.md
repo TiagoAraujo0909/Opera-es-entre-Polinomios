@@ -16,7 +16,9 @@ c(poli).
 2) Iniciar processo Servidor:
 poli:start().
 3) Execução:
+
 P1 = [{1,{"x",2}}].
+
 P2 = [{2,{"x",2}},{1,{"y",1}},{-1,{"",0}}].
 
 Adição
