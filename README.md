@@ -36,19 +36,27 @@ poli:mult(P1,P2).
 -------------
 
 Exemplo de execução (ambiente distribuído).
+
 Terminal 1: erl -sname server
+
 Terminal 2: erl -sname client
+
 Terminal 1: c(poli).
             poli:start().
+            
 Terminal 2: P1 = [{2,{“x”,2}}].
             P2 = [{3,{"x",1}},{-1,{"y",1}}].
+            
 Tudo o resto no terminal 2 (cliente):
 
 Adição:
+
 rpc:call(‘<servername>’,poli,add,[P1,P2]).
 
-Subtração
+Subtração:
+            
 rpc:call(‘<servername>’,poli,sub,[P1,P2]).
 
-Multiplicação
+Multiplicação:
+            
 rpc:call('<servername>,',poli,mult,[P1,P2]).
