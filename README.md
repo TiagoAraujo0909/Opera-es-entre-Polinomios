@@ -20,12 +20,17 @@ P1 = [{1,{"x",2}}].
 P2 = [{2,{"x",2}},{1,{"y",1}},{-1,{"",0}}].
 
 Adição
+
 poli:add(P1,P2).
 
+
 Subtração
+
 poli:sub(P1,P2).
 
+
 Multiplicação
+
 poli:mult(P1,P2).
 
 -------------
