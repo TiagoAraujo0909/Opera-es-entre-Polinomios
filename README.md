@@ -6,7 +6,7 @@ A forma como decidi representar cada monômio foi pelo tuplo:
 Decidi esta forma porque pensei que, posteriormente, seria mais fácil realizar operações sobre polinômios, nomeadamente a multiplicação.
 Sendo assim, os polinômios são representados por listas de monômios:
 
-[{Coeficiente,{Variável,Expoente}}], i.e: 3𝑥^2 → [{3,{”x”,2}}, {2,{“x”,1}, {1,{[],1}}].
+[{Coeficiente,{Variável,Expoente}}], i.e: 3𝑥^2 +2𝑥 + 1 → [{3,{”x”,2}}, {2,{“x”,1}, {1,{[],1}}].
 
 -------------
 
